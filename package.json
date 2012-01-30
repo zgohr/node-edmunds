@@ -1,0 +1,22 @@
+{
+  "name": "edmunds",
+  "description": "Node implementation of the Edmunds SDK",
+  "version": "0.0.1",
+  "author": [
+    { "name": "Zachary Gohr", "email": "zachary.gohr@gmail.com" }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zgohr/node-edmunds.git"
+  },
+  "keywords": ["cars", "vehicles", "edmunds"],
+  "dependencies": {
+    "pkginfo": "0.2.x"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "main": "./lib/edmunds",
+  "scripts": { "test": "sudo vows text/*-test.js --isolate --spec" },
+  "engines": { "node": "0.6.x" }
+}
